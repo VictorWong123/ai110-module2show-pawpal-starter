@@ -1,0 +1,86 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e7]:
+      - button "Deploy" [ref=e9] [cursor=pointer]:
+        - generic [ref=e11]: Deploy
+      - button [ref=e13] [cursor=pointer]:
+        - img [ref=e14]
+  - generic [ref=e19]:
+    - heading "PawPal+" [level=1] [ref=e24]: PawPal+
+    - paragraph [ref=e29]: Your daily pet care planner.
+    - heading "Owner" [level=3] [ref=e34]: Owner
+    - generic [ref=e39]:
+      - generic [ref=e41]:
+        - paragraph [ref=e44]: Your name
+        - textbox "Your name" [ref=e47]:
+          - /placeholder: ""
+          - text: Jordan
+      - button "Update name" [ref=e51] [cursor=pointer]:
+        - paragraph [ref=e53]: Update name
+    - paragraph [ref=e57]:
+      - text: "Logged in as:"
+      - strong [ref=e58]: Jordan
+    - heading "Pets" [level=3] [ref=e63]: Pets
+    - generic [ref=e68]:
+      - generic [ref=e69]:
+        - generic [ref=e75]:
+          - paragraph [ref=e78]: Pet name
+          - textbox "Pet name" [ref=e81]:
+            - /placeholder: ""
+            - text: Mochi
+        - generic [ref=e87]:
+          - paragraph [ref=e90]: Species
+          - generic [ref=e92]:
+            - generic [ref=e93]:
+              - generic [ref=e94]: dog
+              - combobox "Selected dog. Species" [ref=e96]
+            - img "open" [ref=e98]
+      - button "Add pet" [ref=e103] [cursor=pointer]:
+        - paragraph [ref=e105]: Add pet
+    - list [ref=e150]:
+      - listitem [ref=e151]:
+        - strong [ref=e152]: Mochi
+        - text: (dog) — 3 task(s)
+    - heading "Tasks" [level=3] [ref=e118]: Tasks
+    - generic [ref=e156]:
+      - generic [ref=e158]:
+        - paragraph [ref=e161]: Add task to
+        - generic [ref=e163]:
+          - generic [ref=e164]:
+            - generic [ref=e165]: Mochi
+            - combobox "Selected Mochi. Add task to" [ref=e167]
+          - img "open" [ref=e169]
+      - generic [ref=e171]:
+        - generic [ref=e177]:
+          - paragraph [ref=e180]: Description
+          - textbox "Description" [ref=e183]:
+            - /placeholder: ""
+            - text: Morning walk
+        - generic [ref=e189]:
+          - paragraph [ref=e192]: Time (HH:MM)
+          - textbox "Time (HH:MM)" [ref=e195]:
+            - /placeholder: ""
+            - text: 18:00
+        - generic [ref=e201]:
+          - paragraph [ref=e204]: Frequency
+          - generic [ref=e206]:
+            - generic [ref=e207]:
+              - generic [ref=e208]: daily
+              - combobox "Selected daily. Frequency" [ref=e210]
+            - img "open" [ref=e212]
+      - button "Add task" [active] [ref=e217] [cursor=pointer]:
+        - paragraph [ref=e219]: Add task
+    - paragraph [ref=e239]:
+      - strong [ref=e240]: Mochi
+    - list [ref=e243]:
+      - listitem [ref=e244]: Morning walk at 08:00 (daily)
+    - list [ref=e258]:
+      - listitem [ref=e259]: Evening feed at 18:00 (daily)
+    - list [ref=e273]:
+      - listitem [ref=e274]: Vet meds at 18:00 (daily)
+    - heading "Today's Schedule" [level=3] [ref=e279]: Today's Schedule
+    - button "Generate schedule" [ref=e136] [cursor=pointer]:
+      - paragraph [ref=e138]: Generate schedule
+    - separator [ref=e284]
+    - button "Reset session" [ref=e145] [cursor=pointer]:
+      - paragraph [ref=e147]: Reset session
